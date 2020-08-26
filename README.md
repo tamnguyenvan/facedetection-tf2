@@ -1,5 +1,5 @@
 # Very fast face detection in Tensorflow 2x
-Single Shot MultiBox Detector implementation in Tensorflow 2x
+Very fast face detection in Tensorflow 2x based on SSD.
 
 ## Requirements
 - `tensorflow >= 2.2.0`
