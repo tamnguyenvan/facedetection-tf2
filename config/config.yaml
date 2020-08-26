@@ -1,0 +1,13 @@
+MODEL:
+  NAME: 'VGG'
+  NUM_CLASSES: 2
+  NEG_RATIO: 3
+  PRIORS:
+    FEATURES: [40, 20, 10, 5]
+    MIN_SIZES: [[10, 16, 24], [32, 48], [64, 96], [128, 192, 256]]
+    STEPS: [8, 16, 32, 64]
+    BOXES_PER_LOCATION: [3, 2, 2, 3]
+    VARIANCE: [0.1, 0.2]
+    CLIP: false
+INPUT:
+  IMAGE_SIZE: 320
